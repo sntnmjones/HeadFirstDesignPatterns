@@ -1,8 +1,7 @@
-import intro.MiniDuckSimulator;
+import chapt3.StarbuzzCoffee;
 
 class Main {
     public static void main(String[] args) throws Exception {
-        MiniDuckSimulator duckSim = new MiniDuckSimulator();
-        duckSim.execute();
+        new StarbuzzCoffee().run();
     }
 }
