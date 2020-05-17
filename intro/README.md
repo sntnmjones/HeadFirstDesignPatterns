@@ -2,5 +2,7 @@
 
 Demonstrates **Strategy** pattern.
 
-```javac Main.java```   
+```javac $(find -name '*.java')```   
 ```java Main```
+
+![strategy pattern](strategy.jpg)

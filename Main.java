@@ -1,8 +1,8 @@
-import chapt2.WeatherStation;
+import intro.MiniDuckSimulator;
 
 class Main {
     public static void main(String[] args) throws Exception {
-        WeatherStation station = new WeatherStation();
-        station.run();;
+        MiniDuckSimulator duckSim = new MiniDuckSimulator();
+        duckSim.execute();
     }
 }
